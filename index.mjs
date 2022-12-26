@@ -4,8 +4,8 @@
  * ------------------*/
 
 // Imports
-import getLoaderUrl from './lib/getLoaderUrl.mjs';
-import createLoader from './lib/createLoader.mjs';
+import getLoaderUrl from './lib/getLoaderUrl.js';
+import createLoader from './lib/createLoader.js';
 
 // Export loader
 const loaderUrl = await getLoaderUrl(import.meta.url);

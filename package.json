@@ -7,8 +7,8 @@
     ".": {
       "import": "./index.mjs"
     },
-    "./createLoader": "./lib/createLoader.mjs",
-    "./silenceWarnings": "./lib/silenceWarnings.cjs"
+    "./createLoader": "./lib/createLoader.js",
+    "./silenceWarnings": "./lib/silenceWarnings.js"
   },
   "files": [
     "lib/**/*.js"
