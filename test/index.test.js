@@ -6,15 +6,15 @@
 'use strict';
 
 // Modules
-const loader = require('node-universal-loader');
+const createLoader = require('node-universal-loader/create'); // eslint-disable-line import/no-unresolved
 
 // Init
 require('./support/index.js');
 
 // Tests
 
-describe('tests', () => {
-	it.skip('all', () => { // eslint-disable-line jest/no-disabled-tests
-		expect(loader).toBeDefined();
+describe('createLoader', () => {
+	it('is function', () => {
+		expect(createLoader).toBeFunction();
 	});
 });

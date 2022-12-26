@@ -7,7 +7,7 @@
     ".": {
       "import": "./index.mjs"
     },
-    "./createLoader": "./lib/createLoader.js",
+    "./create": "./lib/createLoader.js",
     "./silenceWarnings": "./lib/silenceWarnings.js"
   },
   "files": [
