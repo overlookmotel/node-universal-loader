@@ -9,5 +9,5 @@ import createLoader from './lib/createLoader.js';
 
 // Export loader
 const loaderUrl = await getLoaderUrl(import.meta.url);
-const loader = createLoader(loaderUrl);
+const loader = await createLoader(loaderUrl);
 export const {resolve, load, globalPreload} = loader;
